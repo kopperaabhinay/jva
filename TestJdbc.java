@@ -10,6 +10,7 @@ public class TestJdbc {
 		String jdbcurl="jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false";
 		String user="hbstudent";
 		String pass="hbstudent";
+		String name="new name";
 		try {
 			System.out.println("connecting to database"+ jdbcurl);
 			Connection Conn=DriverManager.getConnection(jdbcurl,user,pass);
